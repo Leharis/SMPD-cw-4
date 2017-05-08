@@ -1,0 +1,5 @@
+library(ahp)
+ahpFile <- system.file("extdata", "lodowki3a.ahp", package="ahp")
+wakacjeAhp <- Load(ahpFile)
+Calculate(wakacjeAhp)
+AnalyzeTable(wakacjeAhp)
